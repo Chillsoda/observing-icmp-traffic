@@ -2,7 +2,7 @@
 
 <h1> Observing ICMP traffic between two VMs</h1> 
 
-We're now going to observe the traffic sent between the two virtual machines we created using a free packet analyzer called Wireshark. 
+We will now observe the traffic sent between the two virtual machines we created using a free packet analyzer called Wireshark. 
 
 <h2> Requirements and Prerequisites </h2> 
 
@@ -22,4 +22,11 @@ We're now going to observe the traffic sent between the two virtual machines we 
 
 1.) At the Azure portal, go to your Windows 10 VM and copy its IP address. 
 
-2.) 
+2.) Open up a remote desktop connection or Microsoft Remote Desktop and paste the IP address where it asks. Next, you can just type in the username and password you created and log in to the VM. 
+
+3.) Once logged in, go to Edge and search for Wireshark. Go to it and download the Windows x64 version. Go to the installer and hit next until you download it. 
+
+![Screen Shot 2024-03-02 at 7 18 35 PM](https://github.com/Chillsoda/observing-icmp-traffic/assets/161760771/7007979b-55a3-4071-bfa0-1480e65de106) 
+
+4.) 
+
