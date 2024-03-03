@@ -12,3 +12,14 @@ We're now going to observe the traffic sent between the two virtual machines we 
 
 3.) Wireshark 
 
+<h2> Operating Systems used </h2> 
+
+1.) Windows 10 
+
+2.) Linux (Ubuntu) 
+
+<h1> Instructions </h1>
+
+1.) At the Azure portal, go to your Windows 10 VM and copy its IP address. 
+
+2.) 
