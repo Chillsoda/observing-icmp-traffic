@@ -36,6 +36,21 @@ We will now observe the traffic sent between the two virtual machines we created
 
 6.) On Azure, go to your Ubuntu VM, locate its private address, and copy it. On your Windows VM, open up the Powershell app and type: ping [IP address]. 
 
-7. Observe our Windows VM successfully pinged our Ubuntu and its reflected both on Powershell and Wireshark. 
+7.) Observe our Windows VM successfully pinged our Ubuntu VM and it's reflected both on Powershell and Wireshark. 
+
+8.) Ping any public website by its domain name and watch for traffic. In my case, I pinged www.Google.com. 
+
+![Screen Shot 2024-03-02 at 7 47 03 PM](https://github.com/Chillsoda/observing-icmp-traffic/assets/161760771/48f8e880-a3b4-4e66-bfbe-e1d8b71c2e82) 
+
+9.) On Powershell create a perpetual ping by typing ping [IP Address] followed by -t. ICMP traffic should now flow perpetually. 
+
+10.) On Azure go to your Ubuntu VM's Network Security Group, and click on inbound security rules. Click Add New Rule. Then, click on ICMP and set it to deny. Port ranges do not matter and set priority to 200. 
+
+![Screen Shot 2024-03-02 at 7 53 45 PM](https://github.com/Chillsoda/observing-icmp-traffic/assets/161760771/96ac16a7-44ab-483a-b157-2d597eb17e63) 
+
+11.)
+
+
+
 
 
