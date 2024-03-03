@@ -48,7 +48,11 @@ We will now observe the traffic sent between the two virtual machines we created
 
 ![Screen Shot 2024-03-02 at 7 53 45 PM](https://github.com/Chillsoda/observing-icmp-traffic/assets/161760771/96ac16a7-44ab-483a-b157-2d597eb17e63) 
 
-11.)
+11.) Notice how traffic stops on Wireshark and Powershell. To resume traffic, go back to Azure and delete the rule we just created. 
+
+12.) Traffic is now restored and our two VMSs are now communicating again. Hit control-c to stop the pinging. 
+
+FINISH
 
 
 
